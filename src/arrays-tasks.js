@@ -218,7 +218,7 @@ function getTail(arr, n) {
     return [];
   }
   return arr.slice(-n);
- }
+}
 
 /**
  * Returns the doubled array - elements of the specified array
@@ -234,7 +234,7 @@ function getTail(arr, n) {
  */
 function doubleArray(arr) {
   return arr.concat(arr);
- }
+}
 
 /**
  * Concatenates all elements from specified array into single string with ',' delimiter.
